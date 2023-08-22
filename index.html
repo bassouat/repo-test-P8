@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio Cathy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<html>
+<!--mini banner -->
+<nav class="mini-nav">
+    <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#projet">Mes Projets</a></li>
+        <li><a href="#competence">Compétence</a></li>
+        <li><a href="#footer">Contact</a></li>
+    </ul>
+</nav>
+<!-- main banner -->
+<section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-text">
+                <h2 class="img_title">"Bonjour et bienvenue sur mon portfolio !</h2>
+                <p class="img_desc">Je m'appelle Cathy Hegesippe </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Presentation-->
+<section id="presentation" class="fond">
+    <h2>Présentation</h2>
+    <p>Je suis une développeuse web polyvalente avec une expertise dans différents domaines du développement. Maîtrisant
+        les langages HTML, CSS et JavaScript, je crée des interfaces conviviales et interactives pour offrir des
+        expériences utilisateur exceptionnelles. J'ai également une expérience solide avec des frameworks frontend tels
+        que React, qui me permettent de développer des applications modernes et dynamiques.
+        Mon expérience ne se limite pas seulement au développement technique. J'ai également étudié les langues et les
+        cultures de l'Asie orientale, ce qui m'a permis d'acquérir des compétences linguistiques en coréen, japonais et
+        chinois, ainsi que des notions dans d'autres langues. Ces compétences linguistiques s'associent à ma vision
+        globale pour créer des interfaces qui répondent aux besoins d'un public diversifié.
+        Au-delà du code, je suis passionnée par la sociologie et la politique, ce qui me donne une perspective unique
+        pour concevoir des applications qui reflètent les valeurs et les aspirations de la société. Mon approche centrée
+        sur l'utilisateur et mon désir d'apprendre en permanence me permettent de développer des solutions qui sont à la
+        fois fonctionnelles et significatives.
+        Vous trouverez dans ce portfolio une sélection de mes projets de développement web, illustrant mon engagement
+        envers l'excellence technique et mon souci du détail dans la création d'interfaces convaincantes. J'espère que
+        vous apprécierez explorer ces réalisations autant que j'ai aimé les créer.
+        N'hésitez pas à me contacter pour discuter de collaborations potentielles, de projets ou simplement pour
+        échanger sur les dernières tendances du développement web et des langues. Merci de prendre le temps de découvrir
+        mon travail !</p>
+</section>
+<!--Competence-->
+<section class="skills" id="competence">
+    <h2 class="skill-header">Mes Compétences en Code et Gestion</h2>
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img src="./assets/image/html.png" alt="html" loading="lazy" class="icon " />
+            <img src="./assets/image/css.png" alt="css" loading="lazy" class="icon " />
+            <img src="./assets/image/js.png" alt="javascript" loading="lazy" class="icon " />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+            <img src="./assets/image/github.png" alt="github" class="icon " />
+            <img src="./assets/image/react.png" alt="react" class="icon" />
+            <img src="./assets/image/trello.png" alt="trello" class="icon " />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+            <img src="./assets/image/adobe.png" alt="adobe photo" class="icon " />
+            <img src="./assets/image/powerpoint.png" alt="porwerpoint" class="icon" />
+            <img src="./assets/image/excel.png" alt="excel" class="icon " />
+        </div>
+    </div>
+</section>
+<!--Competence langue-->
+<section>
+    <h2 class="skill-header skills">Mes Compétences en Langue</h2>
+    <div class="language-chart">
+        <canvas id="languageChart"></canvas>
+    </div>
+</section>
+<section id="projet">
+    <h2 class="skills">Mes Projets</h2>
+    <div class="masonry">
+        <div><img src="./assets/image/Booki.png" alt></div>
+        <div><img src="./assets/image/SophieBluel.png" alt></div>
+        <div><img src="./assets/image/Qwenta.png" alt></div>
+        <div><img src="./assets/image/Nina.jpg" alt></div>
+        <div><img src="./assets/image/Kasa.png" alt></div>
+        <div><img src="./assets/image/Grimoire.png" alt></div>
+    </div>
+</section>
+<!-- footer section-->
+<footer id="footer">
+    <div class="social-icons">
+        <!-- social media icons -->
+        <div>
+            <a href="https://github.com/Parkwolf" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:cathyhegesippe@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="./chart.js"></script>
+<script src="./modal.js"></script>
+
+</html>

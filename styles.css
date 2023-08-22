@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+/*Mini NAVBAR*/
+.mini-nav {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    padding: 10px 0;
+}
+.mini-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.mini-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR*/
+/* background image */
+.bgimage {
+    height:100vh;
+    background: url('./assets/image/02661_800x480.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text  image*/
+.img_title {
+    font-size: 4.5rem;
+}
+.img_desc {
+    font-size: 2rem;
+}
+.img-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/*section competence*/
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+ /*competence langue*/
+ .language-chart {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* FOOTER */
+#footer {
+    background-color: black; 
+    text-align: center;
+    position: absolute;
+    margin-top: 50px;
+    height: 10%;
+    width: 100%;
+}
+
+.social-icons a {
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+/*grille*/
+.masonry {
+    max-width: 75rem;
+    margin: 2rem auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.masonry div {
+    background: silver;
+    border-radius: 1ch;
+    overflow: hidden;
+    width: 100%; /* Largeur du cadre */
+    height: 0;
+    padding-bottom: 50%; /* Crée un espace réservé pour le ratio d'aspect rectangulaire (ex : 2:1) */
+    position: relative;
+}
+
+.masonry div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+/* Styles modals */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Make sure it's on top of everything */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .close-modal-button {
+    margin-top: 10px;
+  }
